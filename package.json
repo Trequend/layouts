@@ -1,0 +1,52 @@
+{
+  "name": "layouts",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Layout examples",
+  "repository": "https://github.com/Trequend/layouts.git",
+  "license": "MIT",
+  "author": "Dmitry Balakin",
+  "main": "index.js",
+  "workspaces": [
+    "layouts/*",
+    "website"
+  ],
+  "scripts": {
+    "build-storybook": "build-storybook",
+    "commitlint": "commitlint",
+    "fmt": "prettier --write .",
+    "postinstall": "node ./utils/is-ci.js || husky install",
+    "lint": "prettier --check . && eslint stories --ext .js,.jsx,.ts,.tsx && stylelint stories/**/*.css",
+    "pre-commit": "yarn run lint",
+    "storybook": "start-storybook -p 6006"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@commitlint/cli": "^14.1.0",
+    "@commitlint/config-conventional": "^14.1.0",
+    "@mdx-js/react": "^1.6.22",
+    "@storybook/addon-actions": "^6.3.12",
+    "@storybook/addon-docs": "^6.3.12",
+    "@storybook/addon-essentials": "^6.3.12",
+    "@storybook/addon-links": "^6.3.12",
+    "@storybook/html": "^6.3.12",
+    "@typescript-eslint/eslint-plugin": "^5.3.1",
+    "@typescript-eslint/parser": "^5.3.1",
+    "@whitespace/storybook-addon-html": "^5.0.0",
+    "babel-loader": "^8.2.3",
+    "eslint": "^8.2.0",
+    "handlebars": "^4.7.7",
+    "handlebars-loader": "^1.7.1",
+    "husky": "^7.0.4",
+    "prettier": "2.4.1",
+    "stylelint": "^14.0.1",
+    "stylelint-config-standard": "^23.0.0",
+    "typescript": "^4.4.4"
+  },
+  "packageManager": "yarn@3.1.0"
+}
