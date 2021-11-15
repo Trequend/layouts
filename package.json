@@ -7,10 +7,6 @@
   "license": "MIT",
   "author": "Dmitry Balakin",
   "main": "index.js",
-  "workspaces": [
-    "layouts/*",
-    "website"
-  ],
   "scripts": {
     "build-storybook": "build-storybook",
     "commitlint": "commitlint",
