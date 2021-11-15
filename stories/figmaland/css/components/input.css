@@ -1,0 +1,13 @@
+.input {
+  background: #f4f4f4;
+  border: 1px solid #e8e8e8;
+  border-radius: 39px;
+  padding: 19px 39px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.input_multiline {
+  border-radius: 0;
+  resize: none;
+}

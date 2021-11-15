@@ -1,0 +1,21 @@
+.partner-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #d8d8d8;
+  height: 160px;
+  padding: 0 40px;
+}
+
+.partner-cell__title {
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 25px;
+  color: #374754;
+}
+
+.partner-cell__logo {
+  margin: auto 0;
+}

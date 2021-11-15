@@ -1,0 +1,56 @@
+.intro {
+  display: flex;
+  width: 100%;
+  min-height: 1000px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("../../images/intro.png") no-repeat center/cover;
+  margin-bottom: 120px;
+}
+
+.intro__tagline {
+  font-size: 74px;
+  font-weight: bold;
+  line-height: 84px;
+  text-align: center;
+  color: #fff;
+  max-width: 672px;
+  margin-bottom: 7px;
+}
+
+.intro__info,
+.intro__short-info {
+  color: #fff;
+  max-width: 786px;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.intro__short-info {
+  display: none;
+  max-width: 320px;
+}
+
+@media screen and (max-width: 950px) {
+  .intro {
+    min-height: 800px;
+  }
+
+  .intro__tagline {
+    font-weight: normal;
+    font-size: 48px;
+    max-width: 400px;
+    line-height: 55px;
+  }
+
+  .intro__info {
+    display: none;
+  }
+
+  .intro__short-info {
+    display: block;
+  }
+}

@@ -1,0 +1,31 @@
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price__count {
+  font-size: 74px;
+  font-weight: bold;
+  line-height: 84px;
+  margin-right: 10px;
+}
+
+.price__info {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #374754;
+}
+
+.price__currency {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 28px;
+}
+
+.price_light,
+.price_light .price__info,
+.price_light .price__currency {
+  color: #fff;
+}

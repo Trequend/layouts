@@ -1,0 +1,59 @@
+.pricing-card {
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  padding: 40px;
+  background: #fff;
+  width: 100%;
+  max-width: 335px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing-card__title {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 28px;
+  text-align: center;
+}
+
+.pricing-card__subtitle {
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  margin-bottom: 30px;
+  max-width: 150px;
+  color: #374754;
+}
+
+.pricing-card__price {
+  margin-bottom: 30px;
+}
+
+.pricing-card__features {
+  font-size: 15px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.pricing-card__features > * {
+  padding: 10px;
+}
+
+.pricing-card__button {
+  font-weight: normal;
+  width: 100%;
+}
+
+.pricing-card_primary {
+  border-color: #1c8bf1;
+  background: #2091f9;
+  color: #fff;
+  padding: 83px 40px;
+}
+
+.pricing-card_primary .pricing-card__subtitle {
+  color: #fff;
+}

@@ -1,0 +1,35 @@
+.contact-us-form {
+  border: 1px solid #ddd;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 0 13px 19px 0 #00000012;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.contact-us-form__title {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 28px;
+}
+
+.contact-us-form > * {
+  margin-bottom: 45px;
+}
+
+.contact-us-form > *:last-child {
+  margin-bottom: 0;
+}
+
+.contact-us-form > .input {
+  padding: 20px;
+}
+
+.contact-us-form__button {
+  font-weight: normal;
+  align-self: flex-start;
+}

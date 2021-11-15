@@ -1,0 +1,29 @@
+.icon-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-card__icon {
+  margin-bottom: 10px;
+  width: 61px;
+  height: 61px;
+}
+
+.icon-card__title {
+  max-width: 180px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.icon-card__description {
+  max-width: 250px;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #374754;
+}

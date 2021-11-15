@@ -1,0 +1,39 @@
+.video {
+  box-shadow: 0 8px 63px rgb(0 0 0 / 15%);
+  background: black;
+  border-radius: 44px;
+  width: 95%;
+  max-width: 1170px;
+  height: 650px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video__button {
+  padding: 0;
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 950px) {
+  .video {
+    max-width: 500px;
+    height: 330px;
+  }
+
+  .video__button {
+    width: 61px;
+    height: 61px;
+  }
+
+  .video__button > svg {
+    width: 16px;
+    height: 16px;
+  }
+}

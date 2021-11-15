@@ -1,0 +1,25 @@
+.social-networks {
+  display: flex;
+  align-items: center;
+}
+
+.social-networks > * {
+  margin-right: 24px;
+}
+
+.social-networks > *:last-child {
+  margin-right: 0;
+}
+
+.social-networks > * path {
+  fill: #2091f9;
+  transition: fill 200ms ease-in-out;
+}
+
+.social-networks > *:hover path {
+  fill: #88c5ff;
+}
+
+.social-networks_light > * path {
+  fill: #fff;
+}

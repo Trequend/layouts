@@ -12,6 +12,9 @@ module.exports = {
     config.module.rules.push({
       test: /\.handlebars$/i,
       loader: 'handlebars-loader',
+      options: {
+        inlineRequires: /images/,
+      },
     });
 
     return config;
